@@ -32,7 +32,7 @@ html, body {
     background: yellow;
 }
 
-.cascading-grandparent {
+.cascading-grandcircle {
     border-width: 5px;
     border-color: rgb(0, 0, 0);
     border-style: solid;
@@ -46,7 +46,7 @@ html, body {
     text-align: center;
 }
 
-.cascading-parent{
+.cascading-parentcircle{
     border-width: 5px;
     border-color: rgb(0, 0, 0);
     border-style: solid;
@@ -60,7 +60,7 @@ html, body {
     text-align: center;
 }
 
-.cascading-child {
+.cascading-childcircle {
     border-width: 5px;
     border-color: rgb(0, 0, 0);
     border-style: solid;
@@ -73,3 +73,34 @@ html, body {
     height: 150px;
     text-align: center;
 }
+
+h2 {font-size: 22px;
+    color: blue;
+    text-decoration:underline;
+}
+a {
+    font-size: 22px;
+    color: #F0F;
+}
+
+.cascading-parent h2 {
+    color:#FD0;
+}
+
+.cascading-parent a {
+    font-size: 32px;
+    color: #CCC
+}
+
+a:link, a:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: blue;
+  }
