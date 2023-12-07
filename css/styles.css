@@ -176,9 +176,9 @@ a:link, a:visited {
   }
 */
 
-  /*exercise #8*/
+  /*exercise #8 */
 
-  /* unvisited link */
+  /* unvisited link 
 
 a {
     background-color: white;
@@ -189,22 +189,86 @@ a {
     text-decoration: underline dotted;
     text-decoration-color: black;
   }
-  /*visited link */
+
+  /* visited link
   a:visited {
     color: green;
     text-decoration: line-through;
     text-decoration-color: black;
   }
-  /* mouse over link */
+  /* mouse over link 
   a:hover {
     color: hotpink;
     text-decoration: underline wavy;
     text-decoration-color: black;
   }
-  /* selected link */
+  /* selected link 
   a:active {
     color: blue;
     text-decoration: underline overline;
     text-decoration-color: black;
   }
+/*
+  
 
+  /* Exercise #9 */
+
+  /* At the top of the file */
+
+  :root {
+
+    /* FONTS */
+    --regular: "Arial";
+
+
+    /* COLORS */
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
+    /* Margins */
+    --margin-XL: 100px 100px 100px 100px;
+    --margin-M: 50px 50px 50px 50px;
+    --margin-S: 10px 10px 10px 10px;
+  }
+
+  /* Usage */
+
+  h1 {
+    font-family: var(--regular);
+    color: var(--white);
+  }
+
+  .container1 {
+    height: 300px;
+    width: 275px;
+    border-color: var(--black);
+    background-color: var(--darker-red);
+    margin: var(--margin-XL);
+    display: inline-block;
+    
+}
+
+.container2 {
+    height: 300px;
+    width: 300px;
+    border-color: var(--black);
+    background-color: var(--lighter-red);
+    margin: var(--margin-M);
+    display: inline-block;
+}
+
+.container3 {
+    height: 300px;
+    width: 300px;
+    border-color: var(--black);
+    background-color: var(--black);
+    margin: var(--margin-s);
+    display: inline-block;
+}
