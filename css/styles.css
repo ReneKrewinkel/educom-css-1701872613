@@ -11,7 +11,7 @@ html, body {
     padding: 0;
 }
 
-/*exercise #2 */
+/*exercise #1 
 
 .red-square {
     width: 80px;
@@ -23,8 +23,9 @@ html, body {
     background-color: rgba(255,0,0,0.4);
     display: inline-block;
 }
+*/
 
-/*exercise #3 */
+/*exercise #2 
 
 .dot {
     float: left;
@@ -36,7 +37,8 @@ html, body {
     background: yellow;
 }
 
-/*exercise #4 */
+*/
+/*exercise #3 
 
 .cascading-grandcircle {
     border-width: 5px;
@@ -79,10 +81,8 @@ html, body {
     height: 150px;
     text-align: center;
 }
-
-/*exercise #5 */
-
-
+*/
+/*exercise #4 
 
 a {
     font-size: 22px;
@@ -102,8 +102,9 @@ h2 {font-size: 22px;
     color: blue;
     text-decoration:underline;
 }
+*/
 
-/*exercise #6 */
+/*exercise #5 
 
 a:link, a:visited {
     background-color: blue;
@@ -117,8 +118,9 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: blue;
   }
+*/
 
-  /*exercise #7*/
+  /*exercise #6
 
   .site-font {
     font-family: Arial, Helvetica, sans-serif;
@@ -134,8 +136,9 @@ a:link, a:visited {
     width: 200px;
     height: 200px;
   }
+*/
 
-  /*exercise #8*/
+  /*exercise #7
 
   .p-first  {
     text-align: center;
@@ -171,3 +174,37 @@ a:link, a:visited {
     from {background-color: rgb(255, 255, 255);}
     to {background-color: rgb(255, 0, 0);}
   }
+*/
+
+  /*exercise #8*/
+
+  /* unvisited link */
+
+a {
+    background-color: white;
+}
+
+  a:link {
+    color: red;
+    text-decoration: underline dotted;
+    text-decoration-color: black;
+  }
+  /*visited link */
+  a:visited {
+    color: green;
+    text-decoration: line-through;
+    text-decoration-color: black;
+  }
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: underline wavy;
+    text-decoration-color: black;
+  }
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline overline;
+    text-decoration-color: black;
+  }
+
