@@ -11,6 +11,8 @@ html, body {
     padding: 0;
 }
 
+/*exercise #2 */
+
 .red-square {
     width: 80px;
     height: 80px;
@@ -22,6 +24,8 @@ html, body {
     display: inline-block;
 }
 
+/*exercise #3 */
+
 .dot {
     float: left;
     width: 300px;
@@ -31,6 +35,8 @@ html, body {
     clip-path: circle();
     background: yellow;
 }
+
+/*exercise #4 */
 
 .cascading-grandcircle {
     border-width: 5px;
@@ -74,10 +80,10 @@ html, body {
     text-align: center;
 }
 
-h2 {font-size: 22px;
-    color: blue;
-    text-decoration:underline;
-}
+/*exercise #5 */
+
+
+
 a {
     font-size: 22px;
     color: #F0F;
@@ -92,6 +98,13 @@ a {
     color: #CCC
 }
 
+h2 {font-size: 22px;
+    color: blue;
+    text-decoration:underline;
+}
+
+/*exercise #6 */
+
 a:link, a:visited {
     background-color: blue;
     color: white;
@@ -103,4 +116,58 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: blue;
+  }
+
+  /*exercise #7*/
+
+  .site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  .site-color {
+    background-color: indigo;
+    color: #FFF;
+  }
+
+  .site-square {
+    width: 200px;
+    height: 200px;
+  }
+
+  /*exercise #8*/
+
+  .p-first  {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: pink;
+  }
+
+  .p-second {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: pink;
+  }
+
+  .p-third {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-color: pink;
+  }
+  
+
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: rgb(255, 0, 0);}
   }
