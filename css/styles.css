@@ -7,7 +7,7 @@
  */
 
 html, body {
-    margin: 0;
+    margin: 150;
     padding: 0;
 }
 
@@ -211,17 +211,17 @@ a {
 /*
   
 
-  /* Exercise #9 */
+  /* Exercise #9 
 
-  /* At the top of the file */
+  /* At the top of the file 
 
   :root {
 
-    /* FONTS */
+    /* FONTS 
     --regular: "Arial";
 
 
-    /* COLORS */
+    /* COLORS 
     --dark-brown: #402214;
     --lighter-brown: #774231;
     --lightest-brown: #aa4b1b;
@@ -232,13 +232,15 @@ a {
     --white: #FFF;
     --black: #000;
 
-    /* Margins */
+    /* Margins 
     --margin-XL: 100px 100px 100px 100px;
     --margin-M: 50px 50px 50px 50px;
     --margin-S: 10px 10px 10px 10px;
   }
 
   /* Usage */
+
+  /*
 
   h1 {
     font-family: var(--regular);
@@ -271,4 +273,99 @@ a {
     background-color: var(--black);
     margin: var(--margin-s);
     display: inline-block;
+}
+
+*/
+
+
+/*exercise 10*/
+
+.button-container a {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+    background-image: linear-gradient(#F00, #111111); 
+
+/*ROUNDING THE CORNERS*/
+    border-radius: 10px;
+    
+/*CREATED WITH THE SHADOW GENERATOR*/
+-webkit-box-shadow: 0px 0px 5px 0px rgba(207,2,77,0.79);
+-moz-box-shadow: 0px 0px 5px 0px rgba(207,2,77,0.79);
+box-shadow: 0px 0px 5px 0px rgba(207,2,77,0.79);
+
+/*Let's get rid of the underline */
+    text-decoration: none;
+
+
+/*Transition effect */
+transition: all 0.5s ease;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    /*Let's get rid of the underline*/
+    text-decoration: none;
+}
+
+
+.button-container b {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: rgb(0, 38, 255);
+    background-image: linear-gradient(#1653af, #111111); 
+
+/*ROUNDING THE CORNERS*/
+    border-radius: 10px;
+    
+/*CREATED WITH THE SHADOW GENERATOR*/
+-webkit-box-shadow: 0px 0px 5px 0px rgba(41, 32, 136, 0.79);
+-moz-box-shadow: 0px 0px 5px 0px rgba(41, 32, 136, 0.79);
+box-shadow: 0px 0px 5px 0px rgba(41, 32, 136, 0.79);
+
+/*Let's get rid of the underline */
+    text-decoration: none;
+
+
+/*Transition effect */
+transition: all 0.5s ease;
+}
+
+.button-container b:hover {
+    background-color: #1653af;
+    /*Let's get rid of the underline*/
+    text-decoration: none;
+}
+
+.button-container c {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #eef20f;
+    background-image: linear-gradient(#eef20f, #111111); 
+
+/*ROUNDING THE CORNERS*/
+    border-radius: 10px;
+    
+/*CREATED WITH THE SHADOW GENERATOR*/
+-webkit-box-shadow: 0px 0px 5px 0px rgba(179, 170, 18, 0.79);
+-moz-box-shadow: 0px 0px 5px 0px rgba(179, 170, 18, 0.79);
+box-shadow: 0px 0px 5px 0px rgba(179, 170, 18, 0.79);
+
+/*Let's get rid of the underline */
+    text-decoration: none;
+
+
+/*Transition effect */
+transition: all 0.5s ease;
+}
+
+.button-container c:hover {
+    background-color: #d8ab09;
+    /*Let's get rid of the underline*/
+    text-decoration: none;
+
+    
 }
