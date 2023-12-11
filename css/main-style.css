@@ -15,6 +15,32 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+
+.nav_left {
+    width: 90%;
+    display: flex;
+    list-style: none;
+    text-align: left;
+    padding: 26px 30px;
+    text-decoration: none;
+}
+
+.nav_right {
+    width: 10%;
+    display: flex;
+    list-style: none;
+    text-align: right;
+    padding: 30px 26px;
+    text-decoration: none;
+}
 
 a:link {
     color: #000000;
